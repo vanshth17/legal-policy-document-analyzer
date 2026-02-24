@@ -10,11 +10,11 @@ The goal of this project is to demonstrate how **enterprise AI backends** are ac
 
 Working with long policy documents can be slow and confusing. This backend solves that by allowing users to:
 
-* 📂 Upload legal or policy PDF files
-* 🤖 Ask natural-language questions about the content
-* 🔎 Get answers grounded in real document context
-* 📑 See page-level citations for transparency
-* 🔐 Keep all AI processing local using Ollama (no external APIs)
+* Upload legal or policy PDF files
+* Ask natural-language questions about the content
+* Get answers grounded in real document context
+* See page-level citations for transparency
+* Keep all AI processing local using Ollama (no external APIs)
 
 Instead of hallucinating answers, the system retrieves relevant document chunks first and uses them to guide the AI response.
 
@@ -83,7 +83,7 @@ The folder structure separates concerns clearly, making the project easier to sc
 
 ---
 
-# ⚙️ Getting Started
+# Getting Started
 
 ## ✅ Requirements
 
@@ -131,7 +131,7 @@ The backend will automatically process and index the document for semantic searc
 
 ---
 
-# ❓ Asking Questions
+#  Asking Questions
 
 Endpoint:
 
@@ -209,7 +209,7 @@ docker compose up --build
 
 ---
 
-# 🌱 Future Improvements
+# Future Improvements
 
 Some planned enhancements:
 
@@ -218,16 +218,3 @@ Some planned enhancements:
 * Multi-document indexing
 * Authentication & access control
 * Non-root Docker security hardening
-
----
-
-# 👨‍💻 Why This Project Exists
-
-Most tutorials stop at simple chatbots. This project goes further by showing how to design a **realistic AI backend** with:
-
-* Proper RAG architecture
-* Clean service-layer separation
-* Privacy-focused AI workflows
-* Containerized deployment
-
-It’s built to reflect how enterprise AI systems are structured behind the scenes — making it both a learning project and a strong portfolio piece.
