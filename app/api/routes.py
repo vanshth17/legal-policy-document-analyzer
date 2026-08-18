@@ -6,7 +6,6 @@ router = APIRouter()
 
 os.makedirs("uploads", exist_ok=True)
 
-# Dependency instance (cleaner than globals)
 rag_service = RAGService()
 
 
